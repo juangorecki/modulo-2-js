@@ -1,0 +1,66 @@
+body {
+    font-family: arial;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-size: 49px;
+    text-shadow: 0px 3px 4px rgba(0,0,0,.5);
+}
+
+#intro {
+    background: url(images/01.jpg) 50% 0 fixed; /*eje X(50%) y eje Y(0%) y despues (fixed) fijo*/
+    background-size: cover; /*redimensionar de manera proporcional la imagen*/ /*https://developer.mozilla.org/en-US/docs/Web/CSS/background-size*/
+    min-height: 900px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+#bloque-img2 {
+    background: url(images/02.jpg) 50% 0 fixed ;
+    background-size: cover;
+    height: 600px;
+}
+
+#bloque-img3 {
+    background: url(images/04.jpg) 50% 0 fixed ;
+    background-size: cover;
+    height: 600px;
+}
+#intro {
+    background: url(images/01.jpg) 50% 0 fixed;
+    background-size: cover;
+
+    min-height: 900px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+#bloque-img2 {
+    background: url(images/02.jpg) 50% 0 fixed ;
+    background-size: cover;
+    height: 600px;
+}
+
+#bloque-img3 {
+    background: url(images/04.jpg) 50% 0 fixed ;
+    background-size: cover;
+    height: 600px;
+}
+
+.texto {
+    color: #ddd;
+    padding: 60px;
+    text-align: center;
+}
+
+.bloque {
+    background-color: #000000;
+    margin: 0 auto;
+}
+
+
+
+
+/*https://developer.mozilla.org/en-US/docs/Web/CSS/background*/
